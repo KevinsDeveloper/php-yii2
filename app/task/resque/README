@@ -1,0 +1,22 @@
+php-resque github地址：https://github.com/chrisboulton/php-resque
+
+以守护进程方式处理队列中的作业，具体的启动逻辑在\app\queue\controllers\RunController::actionIndex方法中。
+启动：
+./queue.sh start
+停止：
+./queue.sh stop
+重启：
+./queue.sh restart
+
+
+\app\queue\controllers\RunController::actionCheckStatus方法可以查看某个作业的状态，不过需要到redis中查看job的id（md5字符串），
+使用方式：queue.php run/check-status job_id_string
+
+
+
+在job目录下每一个类代表一个作业，处理一个业务，作业类必须实现public function perform()方法，业务逻辑在这个方法中实现。
+
+新增一个作业后，需要重启守护进程（有个坑：当作业正在处理时重启了，会导致作业丢失）
+
+插入队列：
+\lib\vendor\resque\Resque::enqueue(string $queueName, string $JobClassFullName, array $args, bool $trackStatus);

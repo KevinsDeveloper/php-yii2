@@ -1,0 +1,404 @@
+2017-02-08 13:52:50 [-][-][-][error][yii\console\Exception] yii\base\InvalidRouteException: Unable to resolve the request "". in /Users/xuwenhu/www/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(161): yii\base\Module->runAction('', Array)
+#1 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(137): yii\console\Application->runAction('', Array)
+#2 /Users/xuwenhu/www/yii-giant/frame/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/xuwenhu/www/yii-giant/app/task/cron/cron.php(72): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\Exception: Unknown command "". in /Users/xuwenhu/www/yii-giant/frame/console/Application.php:163
+Stack trace:
+#0 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(137): yii\console\Application->runAction('', Array)
+#1 /Users/xuwenhu/www/yii-giant/frame/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/xuwenhu/www/yii-giant/app/task/cron/cron.php(72): yii\base\Application->run()
+#3 {main}
+2017-02-08 13:52:50 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/32/40ldj9j13qz5nq7r6y09pgz80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.LgKzAmRK5r/Render'
+    'TERM_PROGRAM_VERSION' => '388'
+    'TERM_SESSION_ID' => 'C183E1CD-3402-4187-9A2A-34B5493F5904'
+    'USER' => 'xuwenhu'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.yWsSCPjWtd/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin'
+    'PWD' => '/Users/xuwenhu/www/yii-giant/app/task/cron'
+    'LANG' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/xuwenhu'
+    'GOROOT' => '/usr/local/go'
+    'LOGNAME' => 'xuwenhu'
+    'GOPATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/go/bin'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.2P0maUGW3M/org.macosforge.xquartz:0'
+    '_' => '/usr/local/bin/php'
+    'OLDPWD' => '/Users/xuwenhu/www/yii-giant'
+    'PHP_SELF' => 'cron.php'
+    'SCRIPT_NAME' => 'cron.php'
+    'SCRIPT_FILENAME' => 'cron.php'
+    'PATH_TRANSLATED' => 'cron.php'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486561970.5447
+    'REQUEST_TIME' => 1486561970
+    'argv' => [
+        0 => 'cron.php'
+    ]
+    'argc' => 1
+]
+2017-02-08 13:59:07 [-][-][-][error][yii\console\Exception] yii\base\InvalidRouteException: Unable to resolve the request "". in /Users/xuwenhu/www/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(161): yii\base\Module->runAction('', Array)
+#1 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(137): yii\console\Application->runAction('', Array)
+#2 /Users/xuwenhu/www/yii-giant/frame/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/xuwenhu/www/yii-giant/app/task/cron/cron.php(72): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\Exception: Unknown command "". in /Users/xuwenhu/www/yii-giant/frame/console/Application.php:163
+Stack trace:
+#0 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(137): yii\console\Application->runAction('', Array)
+#1 /Users/xuwenhu/www/yii-giant/frame/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/xuwenhu/www/yii-giant/app/task/cron/cron.php(72): yii\base\Application->run()
+#3 {main}
+2017-02-08 13:59:07 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/32/40ldj9j13qz5nq7r6y09pgz80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.LgKzAmRK5r/Render'
+    'TERM_PROGRAM_VERSION' => '388'
+    'TERM_SESSION_ID' => 'C183E1CD-3402-4187-9A2A-34B5493F5904'
+    'USER' => 'xuwenhu'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.yWsSCPjWtd/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin'
+    'PWD' => '/Users/xuwenhu/www/yii-giant/app/task/cron'
+    'LANG' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/xuwenhu'
+    'GOROOT' => '/usr/local/go'
+    'LOGNAME' => 'xuwenhu'
+    'GOPATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/go/bin'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.2P0maUGW3M/org.macosforge.xquartz:0'
+    '_' => '/usr/local/bin/php'
+    'OLDPWD' => '/Users/xuwenhu/www/yii-giant/app/task/resque'
+    'PHP_SELF' => 'cron.php'
+    'SCRIPT_NAME' => 'cron.php'
+    'SCRIPT_FILENAME' => 'cron.php'
+    'PATH_TRANSLATED' => 'cron.php'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486562347.9873
+    'REQUEST_TIME' => 1486562347
+    'argv' => [
+        0 => 'cron.php'
+    ]
+    'argc' => 1
+]
+2017-02-08 14:00:53 [-][-][-][error][yii\console\Exception] yii\base\InvalidRouteException: Unable to resolve the request "run/index". in /Users/xuwenhu/www/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(161): yii\base\Module->runAction('run/index', Array)
+#1 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(137): yii\console\Application->runAction('run/index', Array)
+#2 /Users/xuwenhu/www/yii-giant/frame/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/xuwenhu/www/yii-giant/app/task/cron/cron.php(72): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\Exception: Unknown command "run/index". in /Users/xuwenhu/www/yii-giant/frame/console/Application.php:163
+Stack trace:
+#0 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(137): yii\console\Application->runAction('run/index', Array)
+#1 /Users/xuwenhu/www/yii-giant/frame/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/xuwenhu/www/yii-giant/app/task/cron/cron.php(72): yii\base\Application->run()
+#3 {main}
+2017-02-08 14:00:53 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/32/40ldj9j13qz5nq7r6y09pgz80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.LgKzAmRK5r/Render'
+    'TERM_PROGRAM_VERSION' => '388'
+    'TERM_SESSION_ID' => 'C183E1CD-3402-4187-9A2A-34B5493F5904'
+    'USER' => 'xuwenhu'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.yWsSCPjWtd/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin'
+    'PWD' => '/Users/xuwenhu/www/yii-giant/app/task/cron'
+    'LANG' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/xuwenhu'
+    'GOROOT' => '/usr/local/go'
+    'LOGNAME' => 'xuwenhu'
+    'GOPATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/go/bin'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.2P0maUGW3M/org.macosforge.xquartz:0'
+    '_' => '/usr/local/bin/php'
+    'OLDPWD' => '/Users/xuwenhu/www/yii-giant/app/task/resque'
+    'PHP_SELF' => 'cron.php'
+    'SCRIPT_NAME' => 'cron.php'
+    'SCRIPT_FILENAME' => 'cron.php'
+    'PATH_TRANSLATED' => 'cron.php'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486562453.5788
+    'REQUEST_TIME' => 1486562453
+    'argv' => [
+        0 => 'cron.php'
+        1 => 'run/index'
+    ]
+    'argc' => 2
+]
+2017-02-08 14:01:13 [-][-][-][error][yii\console\Exception] yii\base\InvalidRouteException: Unable to resolve the request "". in /Users/xuwenhu/www/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(161): yii\base\Module->runAction('', Array)
+#1 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(137): yii\console\Application->runAction('', Array)
+#2 /Users/xuwenhu/www/yii-giant/frame/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/xuwenhu/www/yii-giant/app/task/cron/cron.php(72): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\Exception: Unknown command "". in /Users/xuwenhu/www/yii-giant/frame/console/Application.php:163
+Stack trace:
+#0 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(137): yii\console\Application->runAction('', Array)
+#1 /Users/xuwenhu/www/yii-giant/frame/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/xuwenhu/www/yii-giant/app/task/cron/cron.php(72): yii\base\Application->run()
+#3 {main}
+2017-02-08 14:01:13 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/32/40ldj9j13qz5nq7r6y09pgz80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.LgKzAmRK5r/Render'
+    'TERM_PROGRAM_VERSION' => '388'
+    'TERM_SESSION_ID' => 'C183E1CD-3402-4187-9A2A-34B5493F5904'
+    'USER' => 'xuwenhu'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.yWsSCPjWtd/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin'
+    'PWD' => '/Users/xuwenhu/www/yii-giant/app/task/cron'
+    'LANG' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/xuwenhu'
+    'GOROOT' => '/usr/local/go'
+    'LOGNAME' => 'xuwenhu'
+    'GOPATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/go/bin'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.2P0maUGW3M/org.macosforge.xquartz:0'
+    '_' => '/usr/local/bin/php'
+    'OLDPWD' => '/Users/xuwenhu/www/yii-giant/app/task/resque'
+    'PHP_SELF' => 'cron.php'
+    'SCRIPT_NAME' => 'cron.php'
+    'SCRIPT_FILENAME' => 'cron.php'
+    'PATH_TRANSLATED' => 'cron.php'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486562473.2658
+    'REQUEST_TIME' => 1486562473
+    'argv' => [
+        0 => 'cron.php'
+    ]
+    'argc' => 1
+]
+2017-02-08 14:01:28 [-][-][-][error][yii\console\Exception] yii\base\InvalidRouteException: Unable to resolve the request "run/index". in /Users/xuwenhu/www/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(161): yii\base\Module->runAction('run/index', Array)
+#1 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(137): yii\console\Application->runAction('run/index', Array)
+#2 /Users/xuwenhu/www/yii-giant/frame/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/xuwenhu/www/yii-giant/app/task/cron/cron.php(72): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\Exception: Unknown command "run/index". in /Users/xuwenhu/www/yii-giant/frame/console/Application.php:163
+Stack trace:
+#0 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(137): yii\console\Application->runAction('run/index', Array)
+#1 /Users/xuwenhu/www/yii-giant/frame/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/xuwenhu/www/yii-giant/app/task/cron/cron.php(72): yii\base\Application->run()
+#3 {main}
+2017-02-08 14:01:28 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/32/40ldj9j13qz5nq7r6y09pgz80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.LgKzAmRK5r/Render'
+    'TERM_PROGRAM_VERSION' => '388'
+    'TERM_SESSION_ID' => 'C183E1CD-3402-4187-9A2A-34B5493F5904'
+    'USER' => 'xuwenhu'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.yWsSCPjWtd/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin'
+    'PWD' => '/Users/xuwenhu/www/yii-giant/app/task/cron'
+    'LANG' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/xuwenhu'
+    'GOROOT' => '/usr/local/go'
+    'LOGNAME' => 'xuwenhu'
+    'GOPATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/go/bin'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.2P0maUGW3M/org.macosforge.xquartz:0'
+    '_' => '/usr/local/bin/php'
+    'OLDPWD' => '/Users/xuwenhu/www/yii-giant/app/task/resque'
+    'PHP_SELF' => 'cron.php'
+    'SCRIPT_NAME' => 'cron.php'
+    'SCRIPT_FILENAME' => 'cron.php'
+    'PATH_TRANSLATED' => 'cron.php'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486562488.4637
+    'REQUEST_TIME' => 1486562488
+    'argv' => [
+        0 => 'cron.php'
+        1 => 'run/index'
+    ]
+    'argc' => 2
+]
+2017-02-08 14:01:43 [-][-][-][error][yii\console\Exception] yii\base\InvalidRouteException: Unable to resolve the request "run/index". in /Users/xuwenhu/www/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(161): yii\base\Module->runAction('run/index', Array)
+#1 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(137): yii\console\Application->runAction('run/index', Array)
+#2 /Users/xuwenhu/www/yii-giant/frame/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/xuwenhu/www/yii-giant/app/task/cron/cron.php(72): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\Exception: Unknown command "run/index". in /Users/xuwenhu/www/yii-giant/frame/console/Application.php:163
+Stack trace:
+#0 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(137): yii\console\Application->runAction('run/index', Array)
+#1 /Users/xuwenhu/www/yii-giant/frame/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/xuwenhu/www/yii-giant/app/task/cron/cron.php(72): yii\base\Application->run()
+#3 {main}
+2017-02-08 14:01:43 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/32/40ldj9j13qz5nq7r6y09pgz80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.LgKzAmRK5r/Render'
+    'TERM_PROGRAM_VERSION' => '388'
+    'TERM_SESSION_ID' => 'C183E1CD-3402-4187-9A2A-34B5493F5904'
+    'USER' => 'xuwenhu'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.yWsSCPjWtd/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin'
+    'PWD' => '/Users/xuwenhu/www/yii-giant/app/task/cron'
+    'LANG' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/xuwenhu'
+    'GOROOT' => '/usr/local/go'
+    'LOGNAME' => 'xuwenhu'
+    'GOPATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/go/bin'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.2P0maUGW3M/org.macosforge.xquartz:0'
+    '_' => '/usr/local/bin/php'
+    'OLDPWD' => '/Users/xuwenhu/www/yii-giant/app/task/resque'
+    'PHP_SELF' => 'cron.php'
+    'SCRIPT_NAME' => 'cron.php'
+    'SCRIPT_FILENAME' => 'cron.php'
+    'PATH_TRANSLATED' => 'cron.php'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486562503.6946
+    'REQUEST_TIME' => 1486562503
+    'argv' => [
+        0 => 'cron.php'
+        1 => 'run/index'
+    ]
+    'argc' => 2
+]
+2017-02-08 14:02:55 [-][-][-][error][yii\console\Exception] yii\base\InvalidRouteException: Unable to resolve the request "run/index". in /Users/xuwenhu/www/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(161): yii\base\Module->runAction('run/index', Array)
+#1 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(137): yii\console\Application->runAction('run/index', Array)
+#2 /Users/xuwenhu/www/yii-giant/frame/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/xuwenhu/www/yii-giant/app/task/cron/cron.php(72): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\Exception: Unknown command "run/index". in /Users/xuwenhu/www/yii-giant/frame/console/Application.php:163
+Stack trace:
+#0 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(137): yii\console\Application->runAction('run/index', Array)
+#1 /Users/xuwenhu/www/yii-giant/frame/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/xuwenhu/www/yii-giant/app/task/cron/cron.php(72): yii\base\Application->run()
+#3 {main}
+2017-02-08 14:02:55 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/32/40ldj9j13qz5nq7r6y09pgz80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.LgKzAmRK5r/Render'
+    'TERM_PROGRAM_VERSION' => '388'
+    'TERM_SESSION_ID' => 'C183E1CD-3402-4187-9A2A-34B5493F5904'
+    'USER' => 'xuwenhu'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.yWsSCPjWtd/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin'
+    'PWD' => '/Users/xuwenhu/www/yii-giant/app/task/cron'
+    'LANG' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/xuwenhu'
+    'GOROOT' => '/usr/local/go'
+    'LOGNAME' => 'xuwenhu'
+    'GOPATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/go/bin'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.2P0maUGW3M/org.macosforge.xquartz:0'
+    '_' => '/usr/local/bin/php'
+    'OLDPWD' => '/Users/xuwenhu/www/yii-giant/app/task/resque'
+    'PHP_SELF' => 'cron.php'
+    'SCRIPT_NAME' => 'cron.php'
+    'SCRIPT_FILENAME' => 'cron.php'
+    'PATH_TRANSLATED' => 'cron.php'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486562575.8958
+    'REQUEST_TIME' => 1486562575
+    'argv' => [
+        0 => 'cron.php'
+        1 => 'run/index'
+    ]
+    'argc' => 2
+]
+2017-02-08 14:02:59 [-][-][-][error][yii\console\Exception] yii\base\InvalidRouteException: Unable to resolve the request "". in /Users/xuwenhu/www/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(161): yii\base\Module->runAction('', Array)
+#1 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(137): yii\console\Application->runAction('', Array)
+#2 /Users/xuwenhu/www/yii-giant/frame/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/xuwenhu/www/yii-giant/app/task/cron/cron.php(72): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\Exception: Unknown command "". in /Users/xuwenhu/www/yii-giant/frame/console/Application.php:163
+Stack trace:
+#0 /Users/xuwenhu/www/yii-giant/frame/console/Application.php(137): yii\console\Application->runAction('', Array)
+#1 /Users/xuwenhu/www/yii-giant/frame/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/xuwenhu/www/yii-giant/app/task/cron/cron.php(72): yii\base\Application->run()
+#3 {main}
+2017-02-08 14:02:59 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/32/40ldj9j13qz5nq7r6y09pgz80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.LgKzAmRK5r/Render'
+    'TERM_PROGRAM_VERSION' => '388'
+    'TERM_SESSION_ID' => 'C183E1CD-3402-4187-9A2A-34B5493F5904'
+    'USER' => 'xuwenhu'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.yWsSCPjWtd/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin'
+    'PWD' => '/Users/xuwenhu/www/yii-giant/app/task/cron'
+    'LANG' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/xuwenhu'
+    'GOROOT' => '/usr/local/go'
+    'LOGNAME' => 'xuwenhu'
+    'GOPATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/go/bin'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.2P0maUGW3M/org.macosforge.xquartz:0'
+    '_' => '/usr/local/bin/php'
+    'OLDPWD' => '/Users/xuwenhu/www/yii-giant/app/task/resque'
+    'PHP_SELF' => 'cron.php'
+    'SCRIPT_NAME' => 'cron.php'
+    'SCRIPT_FILENAME' => 'cron.php'
+    'PATH_TRANSLATED' => 'cron.php'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486562579.2048
+    'REQUEST_TIME' => 1486562579
+    'argv' => [
+        0 => 'cron.php'
+    ]
+    'argc' => 1
+]
