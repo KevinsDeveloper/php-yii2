@@ -62,7 +62,11 @@ class BaseController extends \yii\web\Controller
                 exit(json_encode(['status' => 0, 'msg' => '请重新登录！']));
             }
             else {
-                $this->redirect(['/site/login', 'redirect' => Url::to(['/' . $this->action->controller->module->id . '/' . $this->action->controller->id . '/' . $this->action->id])]);
+                $this->redirect(['/site/login', 'redirect' => Url::to([
+                        '/' . $this->action->controller->module->id .
+                        '/' . $this->action->controller->id .
+                        '/' . $this->action->id
+                ])]);
             }
         }
         return true;

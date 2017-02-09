@@ -29,8 +29,6 @@ return [
     ],
     'components'   => [
         'db'           => require_once LIB . '/config/db.php',
-        'mdb'          => require_once LIB . '/config/mdb.php',
-        'tdb'          => require_once LIB . '/config/tdb.php',
         'request'      => [
             'cookieValidationKey' => 'qw1r32q16we54tw65443236r1321dfa35s',
         ],

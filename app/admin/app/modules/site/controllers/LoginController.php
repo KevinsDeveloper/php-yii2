@@ -48,7 +48,7 @@ class LoginController extends \yii\web\Controller
             'width'     => 124,
             'height'    => 35,
             'fontsize'  => 16,
-            'backcolor' => '#f3f3f4',
+            'backcolor' => '#e5edef',
         ]);
         $captcha->getReckonImg();
         \Yii::$app->session->set('captchaCode', $captcha->getCode());
