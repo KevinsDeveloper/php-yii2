@@ -111,17 +111,18 @@ class LoginController extends \yii\web\Controller
         //$adminData->group_name = $groupData->role_name;
         //登录用户权限
         $powerData = \admin\models\DbAdminPower::findAll(['role_id' => $adminData->group_id]);
-        if(empty($powerData) && $adminData -> group_id != 1){
+        if (empty($powerData) && $adminData->group_id != 1) {
             return Json::encode(['status' => 0, 'msg' => 'Role Error']);
-        }else{
+        }
+        else {
             $powerinfo = [];
-            foreach($powerData as $v){
+            foreach ($powerData as $v) {
                 $powerinfo[] = $v->url;
             }
         }
 
         // 写入SESSION
-        \Yii::$app->session->set('auth', $adminData);
+        \Yii::$app->session->set('auth', $adminData->toArray());
         \Yii::$app->session->set('token', $adminData->token);
         \Yii::$app->session->set('role', $powerinfo);
         \admin\components\LogComponents::saveAdminLoginlog();

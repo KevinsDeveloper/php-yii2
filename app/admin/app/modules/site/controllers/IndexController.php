@@ -12,13 +12,24 @@ use Yii;
 use yii\helpers\Url;
 use yii\helpers\Json;
 
-class IndexController extends \admin\components\BaseController
+class IndexController extends \admin\base\BaseController
 {
-
+    /**
+     * 默认页
+     * @return type
+     */
     public function actionIndex()
     {
-        $this->_data['logindata'] = $this->auth;
-        $this->_data['groupdata'] = \admin\models\DbAdminRole::findOne(['id' => $this->auth['group_id']]);
+        return parent::autoRender();
+    }
+
+    /**
+     * 右边默认页面
+     * @return type
+     */
+    public function actionMain()
+    {
+        $this->data['time'] = time();
         return parent::autoRender();
     }
 

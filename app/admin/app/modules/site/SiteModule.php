@@ -14,13 +14,13 @@ use Yii;
  * Class Module
  * @package app\modules
  */
-class SiteModule extends \admin\components\BaseModule
+class SiteModule extends \admin\base\BaseModule
 {
     public function init()
     {
         parent::init();
 
-        $this->viewPath = '@admin/themes/views/site';
+        $this->viewPath = '@admin/views/site';
     }
 
 }

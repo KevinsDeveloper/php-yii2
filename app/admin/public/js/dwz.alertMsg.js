@@ -39,7 +39,7 @@ var alertMsg = {
 			}
 		}
 		var boxHtml = DWZ.frag["alertBoxFrag"].replace("#type#", type).replace("#title#", this._getTitle(type)).replace("#message#", msg).replace("#butFragment#", butsHtml);
-		$(boxHtml).appendTo("body").css({top:-$(this._boxId).height()+"px"}).animate({top:"0px"}, 500);
+		$(boxHtml).appendTo("body").css({top:-$(this._boxId).height()+"px"}).animate({top:"20%"}, 500);
 				
 		if (this._closeTimer) {
 			clearTimeout(this._closeTimer);

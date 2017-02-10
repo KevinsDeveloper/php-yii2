@@ -15,13 +15,6 @@ return [
     'bootstrap'    => ['log'],
     'modules'      => [
         'site'    => ['class' => 'admin\modules\site\SiteModule'],
-        'sys'     => ['class' => 'admin\modules\sys\SysModule'],
-        'content' => ['class' => 'admin\modules\content\ContentModule'],
-        'live'    => ['class' => 'admin\modules\live\LiveModule'],
-        'act'     => ['class' => 'admin\modules\act\ActModule'],
-        'ads'     => ['class' => 'admin\modules\ads\AdsModule'],
-        'trade'   => ['class' => 'admin\modules\trade\TradeModule'],
-        'user'    => ['class' => 'admin\modules\user\UserModule'],
         'gii'     => [
             'class'      => 'yii\gii\Module',
             'allowedIPs' => ['127.0.0.1', '192.168.1.*', '10.0.2.15', '*'],
@@ -30,7 +23,7 @@ return [
     'components'   => [
         'db'           => require_once LIB . '/config/db.php',
         'request'      => [
-            'cookieValidationKey' => 'qw1r32q16we54tw65443236r1321dfa35s',
+            'cookieValidationKey' => '7yD09jK717NU5OgDAS2brZ3mqzrfO1xE5A41jrG90FoxmKixZ2IPNuMDXD3OCAxS',
         ],
         'errorHandler' => [
             'errorAction' => 'site/login/error',
@@ -86,8 +79,8 @@ return [
         ],
         'view'         => [
             'theme'     => [
-                'pathMap' => ['@app/views' => '@app/themes/views'],
-                'baseUrl' => '@app/themes/views',
+                'pathMap' => ['@app/views' => '@app/views'],
+                'baseUrl' => '@app/views',
             ],
             'class'     => 'yii\web\View',
             'renderers' => [
@@ -103,12 +96,6 @@ return [
                     'class' => 'yii\i18n\PhpMessageSource',
                 ]
             ],
-        ],
-        'upload'       => [
-            'class' => 'lib\vendor\upload\Uploader',
-        ],
-        'encrypt'      => [
-            'class' => 'lib\vendor\encrypt\Encrypt',
         ],
         'mcrypt'       => [
             'class' => 'lib\vendor\mcrypt\Mcrypt',

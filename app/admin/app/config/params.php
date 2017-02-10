@@ -6,4 +6,5 @@
  * @author kevin
  */
 return [
+	'pageSize' => 20,
 ];
