@@ -14,6 +14,11 @@ use yii\helpers\Json;
 use yii\helpers\Url;
 use yii\helpers\Html;
 
+/**
+ * 控制器入口基类
+ * Class BaseController
+ * @package admin\base
+ */
 class BaseController extends \yii\web\Controller
 {
     public $data = [];

@@ -10,11 +10,12 @@ require(__DIR__ . '/loader.php');
 return [
     'id'           => 'app',
     'basePath'     => dirname(__DIR__) . "/../",
-    'defaultRoute' => 'site/index/index',
+    'defaultRoute' => 'home/index/index',
     'language'     => 'zh-CN',
     'bootstrap'    => ['log'],
     'modules'      => [
-        'site'    => ['class' => 'admin\modules\site\SiteModule'],
+        'home'    => ['class' => 'admin\modules\home\HomeModule'],
+        'setting'   => ['class' => 'admin\modules\setting\SettingModule'],
         'gii'     => [
             'class'      => 'yii\gii\Module',
             'allowedIPs' => ['127.0.0.1', '192.168.1.*', '10.0.2.15', '*'],

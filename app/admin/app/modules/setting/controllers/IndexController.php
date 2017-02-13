@@ -12,8 +12,13 @@ use Yii;
 use yii\helpers\Url;
 use yii\helpers\Json;
 
+/**
+ * @class 系统设置
+ * @package admin\modules\setting
+ */
 class IndexController extends \admin\base\BaseController
 {
+
     /**
      * 默认页
      * @return type

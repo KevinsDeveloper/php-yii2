@@ -32,7 +32,7 @@
                 $(function () {
                     DWZ.init("/dwz.frag.xml", {
                         //loginUrl:"login_dialog.html",
-                        loginUrl: "/site/login",
+                        loginUrl: "/home/login",
                         loginTitle: "登录",
                         statusCode: {ok: 200, error: 300, timeout: 301},
                         pageInfo: {pageNum: "pageNum", numPerPage: "numPerPage", orderField: "orderField", orderDirection: "orderDirection"},
@@ -56,7 +56,7 @@
                     <ul class="nav">
                         <li><a href="changepwd.html" target="dialog" width="600">设置</a></li>
                         <li><a href="http://www.weigiant.cn" target="_blank">官网</a></li>
-                        <li><a href="/site/login/out">退出</a></li>
+                        <li><a href="/home/login/out">退出</a></li>
                     </ul>
                     <ul class="themeList" id="themeList">
                         <li theme="default"><div class="selected">蓝色</div></li>
@@ -82,7 +82,7 @@
                                 <li>
                                     <a>系统管理</a>
                                     <ul>
-                                        <li><a href="{$Url->to('/site/index/main')}" target="navTab" rel="setting">基本设置</a></li>
+                                        <li><a href="{$Url->to('/home/index/main')}" target="navTab" rel="setting">基本设置</a></li>
                                         <li><a href="demo_page1.html" target="navTab" rel="page1" fresh="false">替换页面一</a></li>
                                         <li><a href="demo_page2.html" target="navTab" rel="page2">页面二</a></li>
                                         <li><a href="demo/common/ajaxTimeout.html" target="navTab">navTab会话超时</a></li>

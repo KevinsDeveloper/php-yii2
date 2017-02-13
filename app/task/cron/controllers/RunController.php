@@ -31,7 +31,18 @@ class RunController extends Controller
 
     public function actionIndex()
     {
-        echo time();
+        $cronTab = new \yii\crontab\CronTab();
+        $cronTab->setJobs([
+            [
+                'min' => '0',
+                'hour' => '0',
+                'command' => 'php /path/to/project/yii some-cron',
+            ],
+            [
+                'line' => '0 0 * * * php /path/to/project/yii another-cron'
+            ]
+        ]);
+        $cronTab->apply();
     }
 
 }

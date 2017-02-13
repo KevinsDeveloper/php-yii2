@@ -56,7 +56,7 @@ class CronTab extends Component
      * @var array default configuration for the cron job objects.
      */
     public $defaultJobConfig = [
-        'class' => 'yii2tech\crontab\CronJob'
+        'class' => 'yii\crontab\CronJob'
     ];
     /**
      * @var string|callable filter, which indicates whether existing cron job should be removed on cron tab merging.

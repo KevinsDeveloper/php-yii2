@@ -6,11 +6,14 @@
  * @author kevin
  */
 
-namespace admin\modules\site\controllers;
+namespace admin\modules\home\controllers;
 
 use yii\helpers\Json;
 use yii\helpers\Url;
 
+/**
+ * 登录控制器
+ */
 class LoginController extends \yii\web\Controller
 {
 
