@@ -341,3 +341,3522 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1486828137.466
     'REQUEST_TIME' => 1486828137
 ]
+2017-02-13 14:07:38 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login". in /app/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /app/yii-giant/frame/web/Application.php(83): yii\base\Module->runAction('site/login', Array)
+#1 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /app/yii-giant/frame/web/Application.php:95
+Stack trace:
+#0 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#2 {main}
+2017-02-13 14:07:38 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54952'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486994858.9201
+    'REQUEST_TIME' => 1486994858
+]
+2017-02-13 14:07:51 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/captcha". in /app/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /app/yii-giant/frame/web/Application.php(83): yii\base\Module->runAction('site/login/capt...', Array)
+#1 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /app/yii-giant/frame/web/Application.php:95
+Stack trace:
+#0 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#2 {main}
+2017-02-13 14:07:51 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54959'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486994871.2371
+    'REQUEST_TIME' => 1486994871
+]
+2017-02-13 14:07:53 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/captcha". in /app/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /app/yii-giant/frame/web/Application.php(83): yii\base\Module->runAction('site/login/capt...', Array)
+#1 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /app/yii-giant/frame/web/Application.php:95
+Stack trace:
+#0 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#2 {main}
+2017-02-13 14:07:53 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54959'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486994873.6246
+    'REQUEST_TIME' => 1486994873
+]
+2017-02-13 14:07:56 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/captcha". in /app/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /app/yii-giant/frame/web/Application.php(83): yii\base\Module->runAction('site/login/capt...', Array)
+#1 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /app/yii-giant/frame/web/Application.php:95
+Stack trace:
+#0 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#2 {main}
+2017-02-13 14:07:56 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.10601263882347012'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54959'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/login/captcha?t=0.10601263882347012'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.10601263882347012'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486994876.2302
+    'REQUEST_TIME' => 1486994876
+]
+2017-02-13 14:10:21 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/captcha". in /app/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /app/yii-giant/frame/web/Application.php(83): yii\base\Module->runAction('site/login/capt...', Array)
+#1 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /app/yii-giant/frame/web/Application.php:95
+Stack trace:
+#0 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#2 {main}
+2017-02-13 14:10:21 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54981'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995021.6761
+    'REQUEST_TIME' => 1486995021
+]
+2017-02-13 14:10:23 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/captcha". in /app/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /app/yii-giant/frame/web/Application.php(83): yii\base\Module->runAction('site/login/capt...', Array)
+#1 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /app/yii-giant/frame/web/Application.php:95
+Stack trace:
+#0 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#2 {main}
+2017-02-13 14:10:23 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54981'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995023.3659
+    'REQUEST_TIME' => 1486995023
+]
+2017-02-13 14:10:36 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/captcha". in /app/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /app/yii-giant/frame/web/Application.php(83): yii\base\Module->runAction('site/login/capt...', Array)
+#1 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /app/yii-giant/frame/web/Application.php:95
+Stack trace:
+#0 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#2 {main}
+2017-02-13 14:10:36 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54981'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995036.7452
+    'REQUEST_TIME' => 1486995036
+]
+2017-02-13 14:10:53 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/captcha". in /app/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /app/yii-giant/frame/web/Application.php(83): yii\base\Module->runAction('site/login/capt...', Array)
+#1 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /app/yii-giant/frame/web/Application.php:95
+Stack trace:
+#0 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#2 {main}
+2017-02-13 14:10:53 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995053.5212
+    'REQUEST_TIME' => 1486995053
+]
+2017-02-13 14:11:08 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:11:08 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '71'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995068.0917
+    'REQUEST_TIME' => 1486995068
+]
+2017-02-13 14:11:10 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:11:10 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '31'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995070.4971
+    'REQUEST_TIME' => 1486995070
+]
+2017-02-13 14:11:27 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:11:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '50'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995087.9082
+    'REQUEST_TIME' => 1486995087
+]
+2017-02-13 14:11:49 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:11:49 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '54'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995109.3905
+    'REQUEST_TIME' => 1486995109
+]
+2017-02-13 14:12:21 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:12:21 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '57'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995141.4799
+    'REQUEST_TIME' => 1486995141
+]
+2017-02-13 14:12:46 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:12:46 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '79'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995166.1025
+    'REQUEST_TIME' => 1486995166
+]
+2017-02-13 14:12:55 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:12:55 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '40'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995175.67
+    'REQUEST_TIME' => 1486995175
+]
+2017-02-13 14:13:42 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:13:42 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '65'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995222.4175
+    'REQUEST_TIME' => 1486995222
+]
+2017-02-13 14:14:22 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:14:22 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '91'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995262.9808
+    'REQUEST_TIME' => 1486995262
+]
+2017-02-13 14:14:35 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:14:35 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '53'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995275.7003
+    'REQUEST_TIME' => 1486995275
+]
+2017-02-13 14:14:49 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:14:49 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '78'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995289.0218
+    'REQUEST_TIME' => 1486995289
+]
+2017-02-13 14:14:53 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:14:53 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '94'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995293.2514
+    'REQUEST_TIME' => 1486995293
+]
+2017-02-13 14:15:48 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:15:48 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '5'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995348.7825
+    'REQUEST_TIME' => 1486995348
+]
+2017-02-13 14:16:36 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:16:36 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '83'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995396.6335
+    'REQUEST_TIME' => 1486995396
+]
+2017-02-13 14:17:18 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:17:18 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '9'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995438.6357
+    'REQUEST_TIME' => 1486995438
+]
+2017-02-13 14:17:32 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:17:32 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '55'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995452.8875
+    'REQUEST_TIME' => 1486995452
+]
+2017-02-13 14:17:57 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:17:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '61'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995477.1598
+    'REQUEST_TIME' => 1486995477
+]
+2017-02-13 14:18:15 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:18:15 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.49439672480144026'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '91'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.49439672480144026'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.49439672480144026'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995495.7034
+    'REQUEST_TIME' => 1486995495
+]
+2017-02-13 14:18:16 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:18:16 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.4232913315201463'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '63'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.4232913315201463'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.4232913315201463'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995496.2885
+    'REQUEST_TIME' => 1486995496
+]
+2017-02-13 14:18:16 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:18:16 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.3284126074977165'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '13'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.3284126074977165'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.3284126074977165'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995496.6255
+    'REQUEST_TIME' => 1486995496
+]
+2017-02-13 14:18:16 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:18:16 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.33343427834506767'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '94'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.33343427834506767'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.33343427834506767'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995496.8054
+    'REQUEST_TIME' => 1486995496
+]
+2017-02-13 14:18:16 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:18:16 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.9686205403937289'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '12'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.9686205403937289'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.9686205403937289'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995496.9857
+    'REQUEST_TIME' => 1486995496
+]
+2017-02-13 14:18:17 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:18:17 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.9831547398276566'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '98'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.9831547398276566'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.9831547398276566'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995497.1882
+    'REQUEST_TIME' => 1486995497
+]
+2017-02-13 14:18:28 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:18:28 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '18'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995508.09
+    'REQUEST_TIME' => 1486995508
+]
+2017-02-13 14:18:33 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:18:33 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '83'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995513.0079
+    'REQUEST_TIME' => 1486995513
+]
+2017-02-13 14:18:35 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:18:35 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '24'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995515.791
+    'REQUEST_TIME' => 1486995515
+]
+2017-02-13 14:18:36 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:18:36 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.3332416480688738'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '90'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.3332416480688738'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.3332416480688738'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995516.5506
+    'REQUEST_TIME' => 1486995516
+]
+2017-02-13 14:18:47 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:18:47 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '19'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995527.6124
+    'REQUEST_TIME' => 1486995527
+]
+2017-02-13 14:19:07 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:07 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '52'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995547.5021
+    'REQUEST_TIME' => 1486995547
+]
+2017-02-13 14:19:12 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:12 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '95'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995552.2175
+    'REQUEST_TIME' => 1486995552
+]
+2017-02-13 14:19:13 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:13 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.7698927516214822'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '6'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.7698927516214822'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.7698927516214822'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995553.8885
+    'REQUEST_TIME' => 1486995553
+]
+2017-02-13 14:19:14 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:14 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.09123770655476604'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '37'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.09123770655476604'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.09123770655476604'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995554.2731
+    'REQUEST_TIME' => 1486995554
+]
+2017-02-13 14:19:14 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:14 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.7470077794795917'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '17'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.7470077794795917'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.7470077794795917'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995554.4629
+    'REQUEST_TIME' => 1486995554
+]
+2017-02-13 14:19:14 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:14 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.15106409739715043'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '46'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.15106409739715043'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.15106409739715043'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995554.6226
+    'REQUEST_TIME' => 1486995554
+]
+2017-02-13 14:19:14 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:14 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.09544502726484372'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '46'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.09544502726484372'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.09544502726484372'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995554.8004
+    'REQUEST_TIME' => 1486995554
+]
+2017-02-13 14:19:38 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:38 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '94'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995578.7202
+    'REQUEST_TIME' => 1486995578
+]
+2017-02-13 14:19:39 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:39 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.7303082532142835'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '55'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.7303082532142835'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.7303082532142835'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995579.6193
+    'REQUEST_TIME' => 1486995579
+]
+2017-02-13 14:19:40 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:40 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.12112373539267196'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '10'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.12112373539267196'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.12112373539267196'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995580.0678
+    'REQUEST_TIME' => 1486995580
+]
+2017-02-13 14:19:40 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:40 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.9561809536110644'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '29'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.9561809536110644'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.9561809536110644'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995580.2134
+    'REQUEST_TIME' => 1486995580
+]
+2017-02-13 14:19:40 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:40 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.2530387305118531'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '53'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.2530387305118531'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.2530387305118531'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995580.4312
+    'REQUEST_TIME' => 1486995580
+]
+2017-02-13 14:19:40 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:40 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.39053462609124545'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '26'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.39053462609124545'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.39053462609124545'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995580.6316
+    'REQUEST_TIME' => 1486995580
+]
+2017-02-13 14:19:40 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:40 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.9509784944230899'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '17'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.9509784944230899'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.9509784944230899'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995580.7799
+    'REQUEST_TIME' => 1486995580
+]
+2017-02-13 14:19:40 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:40 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.38504388302279446'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '44'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.38504388302279446'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.38504388302279446'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995580.9674
+    'REQUEST_TIME' => 1486995580
+]
+2017-02-13 14:19:41 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:41 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.7475590342105563'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '76'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.7475590342105563'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.7475590342105563'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995581.125
+    'REQUEST_TIME' => 1486995581
+]
+2017-02-13 14:19:41 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:41 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.6501044392426369'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '-6'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.6501044392426369'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.6501044392426369'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995581.2712
+    'REQUEST_TIME' => 1486995581
+]
+2017-02-13 14:19:45 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:19:45 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '49'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995585.6969
+    'REQUEST_TIME' => 1486995585
+]
+2017-02-13 14:20:10 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+2017-02-13 14:20:10 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"plOmb00kOq8Hvhl0jgETBv4spNe1-zav\";}'
+    'PHPSESSID' => '5af8f7d6k4qjav2dojlsjmm0q5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '72'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_COOKIE' => '_csrf=d87affce516f49dad78caa3367586d9eb357fce30b198f762ecb6507f8590b46a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22plOmb00kOq8Hvhl0jgETBv4spNe1-zav%22%3B%7D; PHPSESSID=5af8f7d6k4qjav2dojlsjmm0q5'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,ru;q=0.6,en;q=0.4,it;q=0.2,zh-TW;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55003'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486995610.0448
+    'REQUEST_TIME' => 1486995610
+]
+2017-02-13 15:24:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "w_panel.html". in /app/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /app/yii-giant/frame/web/Application.php(83): yii\base\Module->runAction('w_panel.html', Array)
+#1 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /app/yii-giant/frame/web/Application.php:95
+Stack trace:
+#0 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#2 {main}
+2017-02-13 15:24:03 [127.0.0.1][-][-][info][application] $_GET = [
+    '_' => '1486998856163'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58960'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/w_panel.html?_=1486998856163'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_=1486998856163'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486999443.8356
+    'REQUEST_TIME' => 1486999443
+]
+2017-02-13 15:32:47 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "w_panel.html". in /app/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /app/yii-giant/frame/web/Application.php(83): yii\base\Module->runAction('w_panel.html', Array)
+#1 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /app/yii-giant/frame/web/Application.php:95
+Stack trace:
+#0 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#2 {main}
+2017-02-13 15:32:47 [127.0.0.1][-][-][error][yii\base\ErrorException:1] yii\base\ErrorException: Uncaught Error: Function name must be a string in /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php:415
+Stack trace:
+#0 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(3564): Smarty_Internal_TemplateCompilerBase->compileTag('use', Array)
+#1 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(4392): Smarty_Internal_Templateparser->yy_r38()
+#2 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(4493): Smarty_Internal_Templateparser->yy_reduce(38)
+#3 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_Templateparser->doParse(3, '}')
+#4 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php(283): Smarty_Internal_SmartyTemplateCompiler->doCompile('{use class="yii...')
+#5 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_template.php(197): Smarty_Internal_TemplateCompilerBas in /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php:415
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-13 15:32:47 [127.0.0.1][-][-][info][application] $_GET = [
+    '_' => '1486999524308'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59079'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/w_panel.html?_=1486999524308'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_=1486999524308'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1486999967.1606
+    'REQUEST_TIME' => 1486999967
+]
+2017-02-13 15:36:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "demo_page1.html". in /app/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /app/yii-giant/frame/web/Application.php(83): yii\base\Module->runAction('demo_page1.html', Array)
+#1 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /app/yii-giant/frame/web/Application.php:95
+Stack trace:
+#0 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#2 {main}
+2017-02-13 15:36:43 [127.0.0.1][-][-][error][yii\base\ErrorException:1] yii\base\ErrorException: Uncaught Error: Function name must be a string in /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php:415
+Stack trace:
+#0 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(3564): Smarty_Internal_TemplateCompilerBase->compileTag('use', Array)
+#1 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(4392): Smarty_Internal_Templateparser->yy_r38()
+#2 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(4493): Smarty_Internal_Templateparser->yy_reduce(38)
+#3 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_Templateparser->doParse(3, '}')
+#4 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php(283): Smarty_Internal_SmartyTemplateCompiler->doCompile('{use class="yii...')
+#5 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_template.php(197): Smarty_Internal_TemplateCompilerBas in /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php:415
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-13 15:36:43 [127.0.0.1][-][-][info][application] $_GET = [
+    '_' => '1486999524309'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59307'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/demo_page1.html?_=1486999524309'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_=1486999524309'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487000203.2496
+    'REQUEST_TIME' => 1487000203
+]
+2017-02-13 15:36:45 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "demo_page2.html". in /app/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /app/yii-giant/frame/web/Application.php(83): yii\base\Module->runAction('demo_page2.html', Array)
+#1 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /app/yii-giant/frame/web/Application.php:95
+Stack trace:
+#0 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#2 {main}
+2017-02-13 15:36:45 [127.0.0.1][-][-][error][yii\base\ErrorException:1] yii\base\ErrorException: Uncaught Error: Function name must be a string in /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php:415
+Stack trace:
+#0 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(3564): Smarty_Internal_TemplateCompilerBase->compileTag('use', Array)
+#1 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(4392): Smarty_Internal_Templateparser->yy_r38()
+#2 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(4493): Smarty_Internal_Templateparser->yy_reduce(38)
+#3 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_Templateparser->doParse(3, '}')
+#4 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php(283): Smarty_Internal_SmartyTemplateCompiler->doCompile('{use class="yii...')
+#5 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_template.php(197): Smarty_Internal_TemplateCompilerBas in /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php:415
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-13 15:36:45 [127.0.0.1][-][-][info][application] $_GET = [
+    '_' => '1486999524310'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59307'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/demo_page2.html?_=1486999524310'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_=1486999524310'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487000205.9199
+    'REQUEST_TIME' => 1487000205
+]
+2017-02-13 15:38:28 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "demo/pagination/layout1.html". in /app/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /app/yii-giant/frame/web/Application.php(83): yii\base\Module->runAction('demo/pagination...', Array)
+#1 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /app/yii-giant/frame/web/Application.php:95
+Stack trace:
+#0 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#2 {main}
+2017-02-13 15:38:28 [127.0.0.1][-][-][error][yii\base\ErrorException:1] yii\base\ErrorException: Uncaught Error: Function name must be a string in /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php:415
+Stack trace:
+#0 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(3564): Smarty_Internal_TemplateCompilerBase->compileTag('use', Array)
+#1 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(4392): Smarty_Internal_Templateparser->yy_r38()
+#2 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(4493): Smarty_Internal_Templateparser->yy_reduce(38)
+#3 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_Templateparser->doParse(3, '}')
+#4 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php(283): Smarty_Internal_SmartyTemplateCompiler->doCompile('{use class="yii...')
+#5 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_template.php(197): Smarty_Internal_TemplateCompilerBas in /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php:415
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-13 15:38:28 [127.0.0.1][-][-][info][application] $_GET = [
+    '_' => '1487000255510'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59307'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/demo/pagination/layout1.html?_=1487000255510'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_=1487000255510'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487000308.2405
+    'REQUEST_TIME' => 1487000308
+]
+2017-02-14 14:27:10 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+    in /app/yii-giant/app/admin/app/modules/home/controllers/LoginController.php:57
+2017-02-14 14:27:10 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '58'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=d1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm%22%3B%7D'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52504'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487082430.4404
+    'REQUEST_TIME' => 1487082430
+]
+2017-02-14 14:27:19 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+    in /app/yii-giant/app/admin/app/modules/home/controllers/LoginController.php:57
+2017-02-14 14:27:19 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.23804836519830364'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm\";}'
+    'PHPSESSID' => '50v7k817l5j3o33cvgra979f72'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '39'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=d1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm%22%3B%7D; PHPSESSID=50v7k817l5j3o33cvgra979f72'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52504'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.23804836519830364'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.23804836519830364'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487082439.9783
+    'REQUEST_TIME' => 1487082439
+]
+2017-02-14 14:27:21 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+    in /app/yii-giant/app/admin/app/modules/home/controllers/LoginController.php:57
+2017-02-14 14:27:21 [127.0.0.1][-][-][info][application] $_GET = [
+    't' => '0.9949847808365072'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm\";}'
+    'PHPSESSID' => '50v7k817l5j3o33cvgra979f72'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '88'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=d1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm%22%3B%7D; PHPSESSID=50v7k817l5j3o33cvgra979f72'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52504'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha?t=0.9949847808365072'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 't=0.9949847808365072'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487082441.0923
+    'REQUEST_TIME' => 1487082441
+]
+2017-02-14 14:27:25 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+    in /app/yii-giant/app/admin/app/modules/home/controllers/LoginController.php:57
+2017-02-14 14:27:25 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm\";}'
+    'PHPSESSID' => '50v7k817l5j3o33cvgra979f72'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '12'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=d1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm%22%3B%7D; PHPSESSID=50v7k817l5j3o33cvgra979f72'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52504'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487082445.2527
+    'REQUEST_TIME' => 1487082445
+]
+2017-02-14 14:27:46 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+    in /app/yii-giant/app/admin/app/modules/home/controllers/LoginController.php:57
+2017-02-14 14:27:46 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm\";}'
+    'PHPSESSID' => '50v7k817l5j3o33cvgra979f72'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '58'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=d1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm%22%3B%7D; PHPSESSID=50v7k817l5j3o33cvgra979f72'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52504'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487082466.9689
+    'REQUEST_TIME' => 1487082466
+]
+2017-02-14 14:28:00 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+    in /app/yii-giant/app/admin/app/modules/home/controllers/LoginController.php:57
+2017-02-14 14:28:00 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm\";}'
+    'PHPSESSID' => '50v7k817l5j3o33cvgra979f72'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '106'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=d1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm%22%3B%7D; PHPSESSID=50v7k817l5j3o33cvgra979f72'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52504'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487082480.1116
+    'REQUEST_TIME' => 1487082480
+]
+2017-02-14 14:28:12 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+    in /app/yii-giant/app/admin/app/modules/home/controllers/LoginController.php:57
+2017-02-14 14:28:12 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm\";}'
+    'PHPSESSID' => '50v7k817l5j3o33cvgra979f72'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '81'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=d1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm%22%3B%7D; PHPSESSID=50v7k817l5j3o33cvgra979f72'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52504'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487082492.3015
+    'REQUEST_TIME' => 1487082492
+]
+2017-02-14 14:28:34 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+    in /app/yii-giant/app/admin/app/modules/home/controllers/LoginController.php:57
+2017-02-14 14:28:34 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm\";}'
+    'PHPSESSID' => '50v7k817l5j3o33cvgra979f72'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '21'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=d1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm%22%3B%7D; PHPSESSID=50v7k817l5j3o33cvgra979f72'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52504'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487082514.7052
+    'REQUEST_TIME' => 1487082514
+]
+2017-02-14 14:28:37 [127.0.0.1][-][-][info][yii\web\Session::open] Session started
+    in /app/yii-giant/app/admin/app/modules/home/controllers/LoginController.php:57
+2017-02-14 14:28:37 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm\";}'
+    'PHPSESSID' => '50v7k817l5j3o33cvgra979f72'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'captchaCode' => '13'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=d1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm%22%3B%7D; PHPSESSID=50v7k817l5j3o33cvgra979f72'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/home/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52504'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/home/login/captcha'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487082517.3067
+    'REQUEST_TIME' => 1487082517
+]
+2017-02-14 14:33:13 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "demo_page1.html". in /app/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /app/yii-giant/frame/web/Application.php(83): yii\base\Module->runAction('demo_page1.html', Array)
+#1 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /app/yii-giant/frame/web/Application.php:95
+Stack trace:
+#0 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#2 {main}
+2017-02-14 14:33:13 [127.0.0.1][-][-][error][yii\base\ErrorException:1] yii\base\ErrorException: Uncaught Error: Function name must be a string in /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php:415
+Stack trace:
+#0 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(3564): Smarty_Internal_TemplateCompilerBase->compileTag('use', Array)
+#1 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(4392): Smarty_Internal_Templateparser->yy_r38()
+#2 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(4493): Smarty_Internal_Templateparser->yy_reduce(38)
+#3 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_Templateparser->doParse(3, '}')
+#4 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php(283): Smarty_Internal_SmartyTemplateCompiler->doCompile('{use class="yii...')
+#5 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_template.php(197): Smarty_Internal_TemplateCompilerBas in /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php:415
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 14:33:13 [127.0.0.1][-][-][info][application] $_GET = [
+    '_' => '1487082791881'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm\";}'
+    'PHPSESSID' => '50v7k817l5j3o33cvgra979f72'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=d1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm%22%3B%7D; PHPSESSID=50v7k817l5j3o33cvgra979f72'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52701'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/demo_page1.html?_=1487082791881'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_=1487082791881'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487082793.8351
+    'REQUEST_TIME' => 1487082793
+]
+2017-02-14 14:36:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "demo_page1.html". in /app/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /app/yii-giant/frame/web/Application.php(83): yii\base\Module->runAction('demo_page1.html', Array)
+#1 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /app/yii-giant/frame/web/Application.php:95
+Stack trace:
+#0 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#2 {main}
+2017-02-14 14:36:29 [127.0.0.1][-][-][error][yii\base\ErrorException:1] yii\base\ErrorException: Uncaught Error: Function name must be a string in /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php:415
+Stack trace:
+#0 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(3564): Smarty_Internal_TemplateCompilerBase->compileTag('use', Array)
+#1 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(4392): Smarty_Internal_Templateparser->yy_r38()
+#2 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(4493): Smarty_Internal_Templateparser->yy_reduce(38)
+#3 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_Templateparser->doParse(3, '}')
+#4 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php(283): Smarty_Internal_SmartyTemplateCompiler->doCompile('{use class="yii...')
+#5 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_template.php(197): Smarty_Internal_TemplateCompilerBas in /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php:415
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 14:36:29 [127.0.0.1][-][-][info][application] $_GET = [
+    '_' => '1487082986631'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm\";}'
+    'PHPSESSID' => '50v7k817l5j3o33cvgra979f72'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=d1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm%22%3B%7D; PHPSESSID=50v7k817l5j3o33cvgra979f72'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52805'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/demo_page1.html?_=1487082986631'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_=1487082986631'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487082989.8485
+    'REQUEST_TIME' => 1487082989
+]
+2017-02-14 14:37:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "demo_page2.html". in /app/yii-giant/frame/base/Module.php:461
+Stack trace:
+#0 /app/yii-giant/frame/web/Application.php(83): yii\base\Module->runAction('demo_page2.html', Array)
+#1 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /app/yii-giant/frame/web/Application.php:95
+Stack trace:
+#0 /app/yii-giant/frame/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/yii-giant/app/admin/public/index.php(60): yii\base\Application->run()
+#2 {main}
+2017-02-14 14:37:09 [127.0.0.1][-][-][error][yii\base\ErrorException:1] yii\base\ErrorException: Uncaught Error: Function name must be a string in /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php:415
+Stack trace:
+#0 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(3564): Smarty_Internal_TemplateCompilerBase->compileTag('use', Array)
+#1 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(4392): Smarty_Internal_Templateparser->yy_r38()
+#2 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templateparser.php(4493): Smarty_Internal_Templateparser->yy_reduce(38)
+#3 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_Templateparser->doParse(3, '}')
+#4 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php(283): Smarty_Internal_SmartyTemplateCompiler->doCompile('{use class="yii...')
+#5 /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_template.php(197): Smarty_Internal_TemplateCompilerBas in /app/yii-giant/app/lib/vendor/smarty/sysplugins/smarty_internal_templatecompilerbase.php:415
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 14:37:09 [127.0.0.1][-][-][info][application] $_GET = [
+    '_' => '1487083025394'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm\";}'
+    'PHPSESSID' => '50v7k817l5j3o33cvgra979f72'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=d1cb6afcda5dbd16804abf9906c73f7d36c49407ce05707013fc196db7b6746ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22R-9EcHSGPkbaHRbSZ70POvTje41GK2Dm%22%3B%7D; PHPSESSID=50v7k817l5j3o33cvgra979f72'
+    'HTTP_REFERER' => 'http://admin.yii-giant.com/'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'admin.yii-giant.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yii-giant.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52805'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/yii-giant/app/admin/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/demo_page2.html?_=1487083025394'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_=1487083025394'
+    'SCRIPT_FILENAME' => '/app/yii-giant/app/admin/public//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487083029.1104
+    'REQUEST_TIME' => 1487083029
+]

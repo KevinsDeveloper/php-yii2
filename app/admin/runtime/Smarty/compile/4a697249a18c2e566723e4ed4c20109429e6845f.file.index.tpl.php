@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.20, created on 2017-02-11 15:48:36
+<?php /* Smarty version Smarty-3.1.20, created on 2017-02-13 15:37:35
          compiled from "/app/yii-giant/app/admin/app/views/home/index/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:216200489589f2db07df1f9-08195626%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '4a697249a18c2e566723e4ed4c20109429e6845f' => 
     array (
       0 => '/app/yii-giant/app/admin/app/views/home/index/index.tpl',
-      1 => 1486827056,
+      1 => 1487000253,
       2 => 'file',
     ),
   ),
@@ -27,7 +27,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>YiiGiant</title>
+        <title>YiiGiant-管理中心</title>
         <meta name="keywords" content=""/>
         <meta name="description" content=""/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

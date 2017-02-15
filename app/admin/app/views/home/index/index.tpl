@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>YiiGiant</title>
+        <title>YiiGiant-管理中心</title>
         <meta name="keywords" content=""/>
         <meta name="description" content=""/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

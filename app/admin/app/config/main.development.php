@@ -27,7 +27,7 @@ return [
             'cookieValidationKey' => '7yD09jK717NU5OgDAS2brZ3mqzrfO1xE5A41jrG90FoxmKixZ2IPNuMDXD3OCAxS',
         ],
         'errorHandler' => [
-            'errorAction' => 'site/login/error',
+            'errorAction' => 'home/login/error',
         ],
         'assetManager' => [
             'bundles' => [
@@ -58,6 +58,7 @@ return [
             'rules'           => require(__DIR__ . '/rules.php'),
         ],
         'log'          => [
+            'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
                 'file' => [
                     'class'      => 'yii\log\FileTarget',
@@ -66,15 +67,6 @@ return [
                 ],
             ],
         ],
-//        'log'          => [
-//            'traceLevel' => YII_DEBUG ? 3 : 0,
-//            'targets'    => [
-//                [
-//                    'class'  => 'yii\log\FileTarget',
-//                    'levels' => ['error', 'warning'],
-//                ],
-//            ],
-//        ],
         'cache'        => [
             'class' => 'yii\caching\FileCache',
         ],

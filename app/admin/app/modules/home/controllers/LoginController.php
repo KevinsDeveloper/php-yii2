@@ -48,8 +48,8 @@ class LoginController extends \yii\web\Controller
     {
         $this->layout = false;
         $captcha = new \lib\vendor\captcha\Captcha([
-            'width'     => 124,
-            'height'    => 35,
+            'width'     => 126,
+            'height'    => 32,
             'fontsize'  => 16,
             'backcolor' => '#e5edef',
         ]);

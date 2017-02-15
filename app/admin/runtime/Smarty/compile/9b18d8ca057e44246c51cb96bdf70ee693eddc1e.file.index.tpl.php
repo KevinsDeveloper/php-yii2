@@ -1,4 +1,29 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php /* Smarty version Smarty-3.1.20, created on 2017-02-14 14:27:10
+         compiled from "/app/yii-giant/app/admin/app/views/home/login/index.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:106944255858a1bdb730fa50-60418938%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '9b18d8ca057e44246c51cb96bdf70ee693eddc1e' => 
+    array (
+      0 => '/app/yii-giant/app/admin/app/views/home/login/index.tpl',
+      1 => 1486999427,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '106944255858a1bdb730fa50-60418938',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.20',
+  'unifunc' => 'content_58a1bdb7352b18_19451617',
+  'variables' => 
+  array (
+    'redirect' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_58a1bdb7352b18_19451617')) {function content_58a1bdb7352b18_19451617($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -13,8 +38,10 @@
             <h1 class="logo-name">YiiGiant</h1>
             <div class="form-content">
                 <form class="m-t" id="login-form" role="form" method="post" action="/site/login/do">
-                    <input name="_csrf" type="hidden" id="_csrf" value="{Yii::$app->request->csrfToken}" />
-                    <input name="redirect" type="hidden" value="{$redirect}"/>
+                    <input name="_csrf" type="hidden" id="_csrf" value="<?php echo Yii::$app->request->csrfToken;?>
+" />
+                    <input name="redirect" type="hidden" value="<?php echo $_smarty_tpl->tpl_vars['redirect']->value;?>
+"/>
                     <div class="form-group clearfix">
                         <input type="text" name="account" id="account" class="form-control" placeholder="帐号" size="30" required>
                     </div>
@@ -89,4 +116,4 @@
         });
         </script>
     </body>
-</html>
+</html><?php }} ?>
