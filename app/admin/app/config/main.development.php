@@ -10,24 +10,41 @@ require(__DIR__ . '/loader.php');
 return [
     'id'           => 'app',
     'basePath'     => dirname(__DIR__) . "/../",
-    'defaultRoute' => 'home/index/index',
+    'defaultRoute' => 'site/index',
     'language'     => 'zh-CN',
     'bootstrap'    => ['log'],
     'modules'      => [
-        'home'    => ['class' => 'admin\modules\home\HomeModule'],
-        'setting'   => ['class' => 'admin\modules\setting\SettingModule'],
+        'admin'   => ['class' => 'admin\modules\admin\Module'],
+        'site'    => ['class' => 'admin\modules\site\Module'],
+        'setting' => ['class' => 'admin\modules\setting\SettingModule'],
         'gii'     => [
             'class'      => 'yii\gii\Module',
             'allowedIPs' => ['127.0.0.1', '192.168.1.*', '10.0.2.15', '*'],
         ],
     ],
+    'as access'    => [
+        'class'        => 'admin\modules\admin\components\AccessControl',
+        'allowActions' => [
+            'gii/*',
+            'site/login',
+            'site/login/*',
+        ]
+    ],
     'components'   => [
         'db'           => require_once LIB . '/config/db.php',
+        'user'         => [
+            'identityClass'   => 'admin\models\DbAdmin',
+            'enableAutoLogin' => true,
+            'idParam' => '_admin',
+        ],
+        'authManager'  => [
+            'class' => 'yii\rbac\PhpManager',
+        ],
         'request'      => [
             'cookieValidationKey' => '7yD09jK717NU5OgDAS2brZ3mqzrfO1xE5A41jrG90FoxmKixZ2IPNuMDXD3OCAxS',
         ],
         'errorHandler' => [
-            'errorAction' => 'home/login/error',
+            'errorAction' => 'site/login/error',
         ],
         'assetManager' => [
             'bundles' => [
@@ -59,7 +76,7 @@ return [
         ],
         'log'          => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
-            'targets' => [
+            'targets'    => [
                 'file' => [
                     'class'      => 'yii\log\FileTarget',
                     'levels'     => ['error', 'warning', 'profile', 'info'],

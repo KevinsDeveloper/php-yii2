@@ -61,18 +61,42 @@ class BaseController extends \yii\web\Controller
     }
 
     /**
+     * 返回JSON数据给模板
+     * @author kevin
+     * @param  integer $statusCode   状态码
+     * @param  string  $message      提示语
+     * @param  string  $navTabId     
+     * @param  string  $rel          
+     * @param  string  $callbackType 回调callbackType如果是closeCurrent就会关闭当前tab ，callbackType="forward"时需要forwardUrl值
+     * @param  string  $forwardUrl   跳转地址
+     * @return json
+     */
+    protected function autoJson($statusCode = 200, $message = "操作成功", $navTabId = "", $rel="", $callbackType="closeCurrent", $forwardUrl = "")
+    {
+        return Json::encode([
+                "statusCode" => $statusCode,
+                "message" => $message,
+                "navTabId" => $navTabId,
+                "rel" => $rel,
+                "callbackType" => $callbackType,
+                "forwardUrl" => $forwardUrl,
+        ]);
+    }
+
+    /**
      * 获取当前url
-     * @param $action
+     * @param $action 动作名称
      * @author kevin
      * @return string
      */
-    public function getThisUrl($action = null)
+    protected function getThisUrl($action = null)
     {
         return $action == null ? Yii::$app->request->getHostInfo() : Yii::$app->request->getHostInfo() . Url::toRoute(array_merge([$action], $_GET));
     }
 
     /**
      * 分页程序
+     * @author kevin
      * @param  int $count 总条数
      * @return object
      */
