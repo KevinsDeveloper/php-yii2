@@ -19,7 +19,7 @@
                         <input type="text" name="account" id="account" class="form-control" placeholder="帐号" size="30" required>
                     </div>
                     <div class="form-group clearfix">
-                        <input type="password" name="passwd" id="pass" class="form-control" placeholder="密码" size="30" required>
+                        <input type="password" name="password" id="pass" class="form-control" placeholder="密码" size="30" required>
                     </div>
                     <div class="form-group clearfix">
                         <input type="input" name="captcha" class="form-control" placeholder="验证码" size="6" maxlength="6" required style="width:40%; float:left;" />

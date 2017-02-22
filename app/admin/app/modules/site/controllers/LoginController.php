@@ -2,8 +2,8 @@
 
 /**
  * @copyright Copyright (c) 2017
- * @version  Beta 1.0
- * @author kevin
+ * @version   Beta 1.0
+ * @author    kevin
  */
 
 namespace admin\modules\site\controllers;
@@ -21,15 +21,15 @@ class LoginController extends \yii\web\Controller
     /**
      * @inheritdoc
      */
-    public function behaviors()
-    {
+    public function behaviors() {
         $behaviors = parent::behaviors();
         $behaviors['verbs'] = [
             'class'   => \yii\filters\VerbFilter::className(),
             'actions' => [
                 'do' => ['POST'],
-            ]
+            ],
         ];
+
         return $behaviors;
     }
 
@@ -37,19 +37,27 @@ class LoginController extends \yii\web\Controller
      * 登录
      * @return type
      */
-    public function actionIndex()
-    {
-        $identity = \admin\models\DbAdmin::findByAccount("admin");
-        \Yii::$app->user->login($identity);
+    public function actionIndex() {
+        if (!Yii::$app->user->isGuest) {
+            return $this->goHome();
+        }
 
-        return $this->render('index.tpl', ['redirect' => \Yii::$app->request->get("redirect", "/")]);
+        $model = new \admin\models\AuthUser();
+        $model->attributes = [
+            'account' => 'admin',
+            'email' => 'admin@gmail.com'
+        ];
+        $model->save();
+        print_r($model->errors);
+        echo $model->getId();
+        exit;
+        //return $this->render('index.tpl', ['redirect' => \Yii::$app->request->get("redirect", "/")]);
     }
 
     /**
      * 验证码
      */
-    public function actionCaptcha()
-    {
+    public function actionCaptcha() {
         $this->layout = false;
         $captcha = new \lib\vendor\captcha\Captcha([
             'width'     => 126,
@@ -65,14 +73,11 @@ class LoginController extends \yii\web\Controller
      * 执行登录
      * @return type
      */
-    public function actionDo()
-    {
+    public function actionDo() {
         if (!\Yii::$app->request->isAjax || !\Yii::$app->request->isPost) {
             return Json::encode(['status' => 0, 'msg' => 'Sorry, Request must be POST']);
         }
 
-        $account = trim(\Yii::$app->request->post('account', 'string'));
-        $passwd = trim(\Yii::$app->request->post('passwd', 'string'));
         $captcha = \Yii::$app->request->post('captcha', '');
         $redirect = \Yii::$app->request->post('redirect', 'string');
 
@@ -81,15 +86,19 @@ class LoginController extends \yii\web\Controller
             return Json::encode(['status' => 0, 'msg' => 'Captcha Error']);
         }
 
-        
+        $model = new \admin\models\FormLogin();
+        if ($model->load(Yii::$app->request->post()) && $model->login()) {
+            return Json::encode(['status' => 1, 'redirect' => $redirect]);
+        }
+
+        return Json::encode(['status' => 0, 'msg' => 'Login Failed']);
     }
 
     /**
      * 退出
      * @return type
      */
-    public function actionOut()
-    {
+    public function actionOut() {
         unset(\Yii::$app->session['auth']);
         \Yii::$app->session->destroy();
         $this->redirect(['/']);
@@ -100,8 +109,7 @@ class LoginController extends \yii\web\Controller
      * @author kevin
      * @return type
      */
-    public function actionError()
-    {
+    public function actionError() {
         $exception = \Yii::$app->errorHandler->exception;
         if ($exception !== null) {
             return $this->render('error.tpl', ['message' => $exception->getMessage()]);

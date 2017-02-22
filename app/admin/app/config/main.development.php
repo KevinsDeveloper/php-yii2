@@ -33,9 +33,9 @@ return [
     'components'   => [
         'db'           => require_once LIB . '/config/db.php',
         'user'         => [
-            'identityClass'   => 'admin\models\DbAdmin',
+            'identityClass'   => 'admin\models\AuthUser',
             'enableAutoLogin' => true,
-            'idParam' => '_admin',
+            'idParam' => '_identity',
         ],
         'authManager'  => [
             'class' => 'yii\rbac\PhpManager',
