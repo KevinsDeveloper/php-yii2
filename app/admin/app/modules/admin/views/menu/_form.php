@@ -10,7 +10,7 @@ use admin\modules\admin\AutocompleteAsset;
 /* @var $model mdm\admin\models\Menu */
 /* @var $form yii\widgets\ActiveForm */
 AutocompleteAsset::register($this);
-$opts = Json::htmlEncode([
+$opts = Json::encode([
         'menus' => Menu::getMenuSource(),
         'routes' => Menu::getSavedRoutes(),
     ]);

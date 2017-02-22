@@ -2,8 +2,8 @@
 
 /**
  * @copyright Copyright (c) 2017
- * @version  Beta 1.0
- * @author kevin
+ * @version   Beta 1.0
+ * @author    kevin
  */
 
 namespace admin\modules\site\controllers;
@@ -17,12 +17,12 @@ use yii\helpers\Json;
  */
 class IndexController extends \admin\base\BaseController
 {
+
     /**
      * 默认页
      * @return type
      */
-    public function actionIndex()
-    {
+    public function actionIndex() {
         return parent::autoRender();
     }
 
@@ -30,9 +30,9 @@ class IndexController extends \admin\base\BaseController
      * 右边默认页面
      * @return type
      */
-    public function actionMain()
-    {
+    public function actionMain() {
         $this->data['time'] = time();
+
         return parent::autoRender();
     }
 

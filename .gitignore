@@ -14,3 +14,5 @@
 .idea/yii-giant.iml
 
 app/admin/public/assets/*
+
+app/admin/runtime/logs/app.log

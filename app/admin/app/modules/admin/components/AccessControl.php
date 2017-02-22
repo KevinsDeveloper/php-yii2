@@ -9,24 +9,20 @@ use yii\web\User;
 use yii\di\Instance;
 
 /**
- * Access Control Filter (ACF) is a simple authorization method that is best used by applications that only need some simple access control. 
- * As its name indicates, ACF is an action filter that can be attached to a controller or a module as a behavior. 
+ * Access Control Filter (ACF) is a simple authorization method that is best used by applications that only need some simple access control.
+ * As its name indicates, ACF is an action filter that can be attached to a controller or a module as a behavior.
  * ACF will check a set of access rules to make sure the current user can access the requested action.
- *
  * To use AccessControl, declare it in the application config as behavior.
  * For example.
- *
  * ```
  * 'as access' => [
  *     'class' => 'mdm\admin\components\AccessControl',
  *     'allowActions' => ['site/login', 'site/error']
  * ]
  * ```
- *
  * @property User $user
- * 
  * @author Misbahul D Munir <misbahuldmunir@gmail.com>
- * @since 1.0
+ * @since  1.0
  */
 class AccessControl extends \yii\base\ActionFilter
 {
@@ -43,11 +39,11 @@ class AccessControl extends \yii\base\ActionFilter
      * Get user
      * @return User
      */
-    public function getUser()
-    {
+    public function getUser() {
         if (!$this->_user instanceof User) {
             $this->_user = Instance::ensure($this->_user, User::className());
         }
+
         return $this->_user;
     }
 
@@ -55,16 +51,14 @@ class AccessControl extends \yii\base\ActionFilter
      * Set user
      * @param User|string $user
      */
-    public function setUser($user)
-    {
+    public function setUser($user) {
         $this->_user = $user;
     }
 
     /**
      * @inheritdoc
      */
-    public function beforeAction($action)
-    {
+    public function beforeAction($action) {
         $actionId = $action->getUniqueId();
         $user = $this->getUser();
         if (Helper::checkRoute('/' . $actionId, Yii::$app->getRequest()->get(), $user)) {
@@ -80,11 +74,11 @@ class AccessControl extends \yii\base\ActionFilter
      * @param  User $user the current user
      * @throws ForbiddenHttpException if the user is already logged in.
      */
-    protected function denyAccess($user)
-    {
+    protected function denyAccess($user) {
         if ($user->getIsGuest()) {
             $user->loginRequired();
-        } else {
+        }
+        else {
             throw new ForbiddenHttpException(Yii::t('yii', 'You are not allowed to perform this action.'));
         }
     }
@@ -92,26 +86,24 @@ class AccessControl extends \yii\base\ActionFilter
     /**
      * @inheritdoc
      */
-    protected function isActive($action)
-    {
+    protected function isActive($action) {
         $uniqueId = $action->getUniqueId();
         if ($uniqueId === Yii::$app->getErrorHandler()->errorAction) {
             return false;
         }
 
         $user = $this->getUser();
-        if($user->getIsGuest())
-        {
+        if ($user->getIsGuest()) {
             $loginUrl = null;
-            if(is_array($user->loginUrl) && isset($user->loginUrl[0])){
+            if (is_array($user->loginUrl) && isset($user->loginUrl[0])) {
                 $loginUrl = $user->loginUrl[0];
-                }else if(is_string($user->loginUrl)){
-                    $loginUrl = $user->loginUrl;
-                }
-                if(!is_null($loginUrl) && trim($loginUrl,'/') === $uniqueId)
-                {
-                    return false;
-                }
+            }
+            else if (is_string($user->loginUrl)) {
+                $loginUrl = $user->loginUrl;
+            }
+            if (!is_null($loginUrl) && trim($loginUrl, '/') === $uniqueId) {
+                return false;
+            }
         }
 
         if ($this->owner instanceof Module) {
@@ -121,7 +113,8 @@ class AccessControl extends \yii\base\ActionFilter
             if ($mid !== '' && strpos($id, $mid . '/') === 0) {
                 $id = substr($id, strlen($mid) + 1);
             }
-        } else {
+        }
+        else {
             $id = $action->id;
         }
 
@@ -131,13 +124,14 @@ class AccessControl extends \yii\base\ActionFilter
                 if ($route === '' || strpos($id, $route) === 0) {
                     return false;
                 }
-            } else {
+            }
+            else {
                 if ($id === $route) {
                     return false;
                 }
             }
         }
-
+        
         if ($action->controller->hasMethod('allowAction') && in_array($action->id, $action->controller->allowAction())) {
             return false;
         }

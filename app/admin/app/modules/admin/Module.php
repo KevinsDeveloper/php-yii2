@@ -115,6 +115,8 @@ class Module extends \yii\base\Module
         if (class_exists('yii\jui\JuiAsset')) {
             Yii::$container->set('admin\modules\admin\AutocompleteAsset', 'yii\jui\JuiAsset');
         }
+
+        $this->layout = $this->mainLayout;
     }
 
     /**

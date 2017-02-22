@@ -22,8 +22,7 @@ class FormLogin extends Model
     public $account;
     public $password;
     public $rememberMe = true;
-
-    private $_user;
+    private $_user = null;
 
 
     /**
@@ -32,7 +31,7 @@ class FormLogin extends Model
     public function rules() {
         return [
             // account and password are both required
-            [['account', 'password'], 'required'],
+            [['username', 'password'], 'required'],
             // rememberMe must be a boolean value
             ['rememberMe', 'boolean'],
             // password is validated by validatePassword()
@@ -50,13 +49,13 @@ class FormLogin extends Model
         if (!$this->hasErrors()) {
             $user = $this->getUser();
             if (!$user || !$user->validatePassword($this->password)) {
-                $this->addError($attribute, 'Incorrect account or password.');
+                $this->addError($attribute, 'Incorrect username or password.');
             }
         }
     }
 
     /**
-     * Logs in a user using the provided account and password.
+     * Logs in a user using the provided username and password.
      * @return bool whether the user is logged in successfully
      */
     public function login() {
@@ -69,12 +68,12 @@ class FormLogin extends Model
     }
 
     /**
-     * Finds user by [[account]]
+     * Finds user by [[username]]
      * @return User|null
      */
     protected function getUser() {
         if ($this->_user === null) {
-            $this->_user = \admin\models\AuthUser::findByUsername($this->account);
+            $this->_user = \admin\models\AuthUser::findByUsername($this->username);
         }
 
         return $this->_user;

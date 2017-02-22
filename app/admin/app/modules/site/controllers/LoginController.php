@@ -42,16 +42,7 @@ class LoginController extends \yii\web\Controller
             return $this->goHome();
         }
 
-        $model = new \admin\models\AuthUser();
-        $model->attributes = [
-            'account' => 'admin',
-            'email' => 'admin@gmail.com'
-        ];
-        $model->save();
-        print_r($model->errors);
-        echo $model->getId();
-        exit;
-        //return $this->render('index.tpl', ['redirect' => \Yii::$app->request->get("redirect", "/")]);
+        return $this->render('index.tpl', ['redirect' => \Yii::$app->request->get("redirect", "/")]);
     }
 
     /**
@@ -87,10 +78,9 @@ class LoginController extends \yii\web\Controller
         }
 
         $model = new \admin\models\FormLogin();
-        if ($model->load(Yii::$app->request->post()) && $model->login()) {
+        if ($model->load(Yii::$app->request->post(), "") && $model->login()) {
             return Json::encode(['status' => 1, 'redirect' => $redirect]);
         }
-
         return Json::encode(['status' => 0, 'msg' => 'Login Failed']);
     }
 
@@ -99,7 +89,7 @@ class LoginController extends \yii\web\Controller
      * @return type
      */
     public function actionOut() {
-        unset(\Yii::$app->session['auth']);
+        \Yii::$app->user->logout();
         \Yii::$app->session->destroy();
         $this->redirect(['/']);
     }

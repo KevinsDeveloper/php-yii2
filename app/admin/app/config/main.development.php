@@ -2,8 +2,8 @@
 
 /**
  * @copyright Copyright (c) 2017
- * @version  Beta 1.0
- * @author kevin
+ * @version   Beta 1.0
+ * @author    kevin
  */
 require(__DIR__ . '/loader.php');
 
@@ -28,17 +28,19 @@ return [
             'gii/*',
             'site/login',
             'site/login/*',
-        ]
+        ],
     ],
     'components'   => [
         'db'           => require_once LIB . '/config/db.php',
         'user'         => [
             'identityClass'   => 'admin\models\AuthUser',
             'enableAutoLogin' => true,
-            'idParam' => '_identity',
+            'idParam'         => '_identity',
+            'loginUrl'        => ['site/login'],
         ],
         'authManager'  => [
-            'class' => 'yii\rbac\PhpManager',
+            //'class' => 'yii\rbac\PhpManager',
+            'class' => 'admin\modules\admin\components\DbManager',
         ],
         'request'      => [
             'cookieValidationKey' => '7yD09jK717NU5OgDAS2brZ3mqzrfO1xE5A41jrG90FoxmKixZ2IPNuMDXD3OCAxS',
@@ -64,7 +66,7 @@ return [
             ],
             'messageConfig' => [
                 'charset' => 'UTF-8',
-                'from'    => ['' => '']
+                'from'    => ['' => ''],
             ],
         ],
         'urlManager'   => [
@@ -96,7 +98,7 @@ return [
             'renderers' => [
                 'tpl' => [
                     'class' => 'yii\smarty\ViewRenderer',
-                //'cachePath' => '@runtime/Smarty/cache',
+                    //'cachePath' => '@runtime/Smarty/cache',
                 ],
             ],
         ],
@@ -104,7 +106,7 @@ return [
             'translations' => [
                 '*' => [
                     'class' => 'yii\i18n\PhpMessageSource',
-                ]
+                ],
             ],
         ],
         'mcrypt'       => [

@@ -16,7 +16,7 @@ $context = $this->context;
 $labels = $context->labels();
 $rules = Configs::authManager()->getRules();
 unset($rules[RouteRule::RULE_NAME]);
-$source = Json::htmlEncode(array_keys($rules));
+$source = Json::encode(array_keys($rules));
 
 $js = <<<JS
     $('#rule_name').autocomplete({

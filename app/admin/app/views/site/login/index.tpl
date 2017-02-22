@@ -16,7 +16,7 @@
                     <input name="_csrf" type="hidden" id="_csrf" value="{Yii::$app->request->csrfToken}" />
                     <input name="redirect" type="hidden" value="{$redirect}"/>
                     <div class="form-group clearfix">
-                        <input type="text" name="account" id="account" class="form-control" placeholder="帐号" size="30" required>
+                        <input type="text" name="username" id="account" class="form-control" placeholder="帐号" size="30" required>
                     </div>
                     <div class="form-group clearfix">
                         <input type="password" name="password" id="pass" class="form-control" placeholder="密码" size="30" required>
@@ -61,7 +61,7 @@
                 data: form.serialize(),
                 success: function (ret) {
                     if (ret.status == 1) {
-                        location.href = ret.data.tourl;
+                        location.href = ret.redirect;
                     } else {
                         captcha.click();
                         return divalert(ret.msg);

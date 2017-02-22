@@ -5,8 +5,13 @@ namespace admin\models;
 use Yii;
 use yii\base\NotSupportedException;
 use yii\web\IdentityInterface;
+use yii\db\ActiveRecord;
 
-class AuthUser extends \yii\db\ActiveRecord implements IdentityInterface
+/**
+ * Class AuthUser
+ * @package admin\models
+ */
+class AuthUser extends ActiveRecord implements IdentityInterface
 {
     const STATUS_ACTIVE = 1;
 
@@ -46,7 +51,7 @@ class AuthUser extends \yii\db\ActiveRecord implements IdentityInterface
         return [
             [['auth_key', 'password_hash', 'email', 'created_at', 'updated_at'], 'required'],
             [['role', 'status', 'created_at', 'updated_at'], 'integer'],
-            [['account', 'password_hash', 'password_reset_token', 'email'], 'string', 'max' => 255],
+            [['username', 'password_hash', 'password_reset_token', 'email'], 'string', 'max' => 255],
             [['auth_key'], 'string', 'max' => 32],
         ];
     }
@@ -57,7 +62,7 @@ class AuthUser extends \yii\db\ActiveRecord implements IdentityInterface
     public function attributeLabels() {
         return [
             'id'                   => Yii::t('app', '自增ID'),
-            'account'              => Yii::t('app', '用户名'),
+            'username'              => Yii::t('app', '用户名'),
             'auth_key'             => Yii::t('app', '自动登录key'),
             'password_hash'        => Yii::t('app', '加密密码'),
             'password_reset_token' => Yii::t('app', '重置密码token'),
@@ -88,8 +93,8 @@ class AuthUser extends \yii\db\ActiveRecord implements IdentityInterface
      * @param string $username
      * @return static|null
      */
-    public static function findByUsername($account) {
-        return static::findOne(['account' => $account, 'status' => self::STATUS_ACTIVE]);
+    public static function findByUsername($username) {
+        return static::findOne(['username' => $username, 'status' => self::STATUS_ACTIVE]);
     }
 
     /**

@@ -606,6 +606,7 @@ class User extends Component
         $session = Yii::$app->getSession();
         $id = $session->getHasSessionId() || $session->getIsActive() ? $session->get($this->idParam) : null;
 
+
         if ($id === null) {
             $identity = null;
         } else {

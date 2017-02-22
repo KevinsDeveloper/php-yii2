@@ -13,7 +13,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 AnimateAsset::register($this);
 YiiAsset::register($this);
-$opts = Json::htmlEncode([
+$opts = Json::encode([
     'routes' => $routes,
 ]);
 $this->registerJs("var _opts = {$opts};");
