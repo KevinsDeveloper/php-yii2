@@ -83,10 +83,9 @@
                                     <a>系统管理</a>
                                     <ul>
                                         <li><a href="{$Url->to('/site/index/main')}" target="navTab" rel="main">基本设置</a></li>
-                                        <li><a href="{$Url->to('/site/index/main')}" target="navTab" rel="row-col">替换页面一</a></li>
-                                        <li><a href="{$Url->to('/site/index/main')}" target="navTab" rel="page3">页面二</a></li>
-                                        <li><a href="demo/common/ajaxTimeout.html" target="navTab">navTab会话超时</a></li>
-                                        <li><a href="demo/common/ajaxTimeout.html" target="dialog">dialog会话超时</a></li>
+                                        <li><a href="{$Url->to('/admin/permission')}" target="navTab" rel="permission">权限设置</a></li>
+                                        <li><a href="{$Url->to('/admin/role')}" target="navTab" rel="role">角色管理</a></li>
+                                        <li><a href="{$Url->to('/admin/menu')}" target="navTab" rel="menu">菜单管理</a></li>
                                     </ul>
                                 </li>
 

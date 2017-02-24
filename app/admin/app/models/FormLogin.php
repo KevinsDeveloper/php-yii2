@@ -19,7 +19,7 @@ use yii\base\Model;
  */
 class FormLogin extends Model
 {
-    public $account;
+    public $username;
     public $password;
     public $rememberMe = true;
     private $_user = null;

@@ -23,7 +23,7 @@ return [
         ],
     ],
     'as access'    => [
-        'class'        => 'admin\modules\admin\components\AccessControl',
+        'class'        => 'admin\components\AccessControl',
         'allowActions' => [
             'gii/*',
             'site/login',
@@ -39,8 +39,7 @@ return [
             'loginUrl'        => ['site/login'],
         ],
         'authManager'  => [
-            //'class' => 'yii\rbac\PhpManager',
-            'class' => 'admin\modules\admin\components\DbManager',
+            'class' => 'yii\rbac\DbManager',
         ],
         'request'      => [
             'cookieValidationKey' => '7yD09jK717NU5OgDAS2brZ3mqzrfO1xE5A41jrG90FoxmKixZ2IPNuMDXD3OCAxS',
